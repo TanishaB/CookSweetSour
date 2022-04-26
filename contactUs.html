@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>CookSweetSour</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown">RECEIPES</a>
+                <div class="dropdown-menu">
+                    <a href="snack.html" class="dropdown-item">Snack</a>
+                    <a href="meal.html" class="dropdown-item">Meal</a>
+                    <a href="dessert.html" class="dropdown-item">Dessert</a>
+                </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contactUs.html">CONTACT US</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <h1><center>Contact Us</center></h1>
+
+        <div class = "container">
+            <img src="images/ContactUs.JPG" class="center">
+
+            <h4>Share your delicious recipes with us  <span class="badge bg-warning">It's time to share!!</span></h4><br/><br/>
+            
+            <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              Guidlines For Submitting your recipe
+            </button>
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Guidlines For Submitting your recipe</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+                  Please follow the following guidlines while submitting your recipe.
+                </div>
+                <div class="dropdown mt-3">
+                  
+                  <ul>
+                    <li>Enter your Full Name</li>
+                    <li>Enter valid Email Address</li>
+                    <li>Enter your recipe name along with the youtube link for recipe</li>
+                    <li>Attach a Thumbnail</li>
+                  </ul><br/><br/>
+
+                  <p>For any queries, you can email us on cooksweetsour@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <hr>
+
+
+
+            
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Name</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter Full Name"></textarea>
+                </div><br>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div><br>
+                
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Receipe Youtube video Link</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Enter Youtube Link"></textarea>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Thumbnail Image</label><br>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                  </div><br>
+
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div><br><br/>
+
+                
+                <div>
+                <button type="submit" class="btn btn-outline-success btn-lg" formaction="alert.html">Submit</button>
+                <button type="reset" class="btn btn-outline-danger btn-lg" >Reset</button>
+                </div>
+              </form>
+              <hr>
+            </div>
+        
+    </div>
+    <div class="footer">
+      <img src = "images/logo.JPG" alt = "CookSweetSourLogo" align="left">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://twitter.com/i/flow/login" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://web.whatsapp.com/" class="fa fa-whatsapp" target="_blank"></a>
+      </div>
+</body>
+</html>
